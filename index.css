@@ -16,6 +16,19 @@ table {
     background-color: red;
 }
 
-.start {
+.source {
     background-color: green;
+}
+
+.visited {
+    background-color: blue;
+}
+
+.shortestpath {
+    background-color: yellow;
+}
+
+#BFS {
+    width: 100px;
+    height: 50px;
 }
