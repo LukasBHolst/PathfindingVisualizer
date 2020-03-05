@@ -1,5 +1,5 @@
 import { visualBFS } from './algorithms/BFS' ;
-import { forwbf } from './algorithms/forwbf';
+import { visualBFSConv } from './algorithms/BFSConv';
 
 // When clicked on button for Breadth first search, start the search.
 export function buttonBFS(board) {
@@ -10,9 +10,9 @@ export function buttonBFS(board) {
 }
 
 // scrapped algorithm for now
-export function buttonforwBF(board) {
-    const button = document.getElementById('ForwBF');
+export function buttonBFSConv(board) {
+    const button = document.getElementById('BFSConv');
     button.addEventListener('click', () => {
-        forwbf(board);
+        visualBFSConv(board);
     }, false)
 }
